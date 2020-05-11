@@ -7,9 +7,7 @@ function Layout({ children }) {
       <Head>
         <title>Murat Denizli'nin Web Sitesi</title>
       </Head>
-      <Navigation />
       <main>{children}</main>
-      <footer>design by murat</footer>
     </div>
   )
 }
